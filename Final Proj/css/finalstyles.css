@@ -1,0 +1,52 @@
+        body {
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+    
+        }
+        h1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.5);
+
+        }
+        ol{
+            text-align: left;
+            color: rgb(255, 255, 255);
+        }
+        ul{
+            text-align: left;
+            color: rgb(255, 255, 255);
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+        }
+        h2{
+            
+            font-family: cursive;
+        }
+        .image-wrapper {
+            display: flex; /* Use flexbox to align images horizontally */
+            justify-content: center;
+        }
+        
+        .image-wrapper img {
+            margin-right: 20px; /* Optional: Add some spacing between the images */
+        }
+        a:visited {
+            color: lightcyan; /* Change color for visited links */
+        }
