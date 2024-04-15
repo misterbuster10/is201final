@@ -1,0 +1,65 @@
+/*positioning stlyes*/
+.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.content{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    color: aliceblue;
+
+}
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    color: aliceblue;
+    animation: textFade 3s infinite alternate; /* Adjust timing as needed */
+
+}
+@keyframes textFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img.small-image {
+    width: 50px;
+    height: auto; /* Ensure aspect ratio is maintained */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    /* Add any other styling you want for these small images */
+}
+p{
+    font-size: small;
+}
+.bottom_link{
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    color: aliceblue;
+    animation: textFade 3s infinite alternate;
+}
+a:visited {
+    color: lightcyan; /* Change color for visited links */
+}
